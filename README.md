@@ -10,7 +10,12 @@ I’m an IT professional building a hands-on offensive security portfolio focuse
 
 Rather than relying on certifications alone, I learn by **building**, **breaking**, and **documenting**. My work explores how attackers operate across the full lifecycle — from initial execution and command-and-control to detection and response — all within **authorized lab environments**.
 
-This repository serves as a curated collection of projects that reflect how I think, design, and reason about security problems.
+This repository serves as a curated collection of projects that reflect how I think, design, and reason about security problems. Selected projects are linked below for **interactive exploration**:
+
+- [Lab C2 Framework (Python)](./projects/lab-c2-framework/README.md)  
+- [Custom Implant Experiments (C++)](./projects/custom-implant/README.md)  
+- [Splunk Detection Playbooks](./projects/splunk-detections/README.md)  
+- [Hack The Box Labs & Write-Ups](./projects/htb-labs/README.md)  
 
 ---
 
@@ -34,25 +39,62 @@ This repository serves as a curated collection of projects that reflect how I th
 
 ---
 
+## 🧠 Foundations & Self-Directed Learning
+
+In parallel with hands-on offensive projects, I’ve built a strong foundation in **enterprise networking and Windows environments**, equivalent to **Network+–level knowledge**, and actively apply these concepts in lab-based attack and detection scenarios.
+
+### Core Knowledge Areas
+
+- **Networking Fundamentals**
+  - TCP/IP, DNS, DHCP, ARP, routing & switching concepts
+  - Common enterprise protocols and traffic patterns
+  - Network segmentation, firewalls, and trust boundaries
+
+- **Active Directory & Windows Environments**
+  - Domain structure, authentication, and authorization
+  - Kerberos & NTLM fundamentals
+  - User, group, and privilege relationships
+  - Common AD misconfigurations and attack paths
+
+- **Network & AD Attack Techniques (Lab Environments)**
+  - Credential exposure and abuse
+  - Lateral movement concepts
+  - Privilege escalation logic
+  - Understanding how attacks propagate through real networks
+
+- **Security Fundamentals**
+  - Threat modeling and attack surfaces
+  - Defense-in-depth principles
+  - Logging, visibility, and detection strategy
+
+I’m currently **working toward Security+–level coverage** to formalize these fundamentals, while continuing to focus on **practical implementation over theory alone**.
+
+### How This Knowledge Is Applied
+
+- Designing C2 traffic that blends into normal network behavior  
+- Understanding how AD permissions and trust relationships impact attack paths  
+- Writing Splunk detections reflecting real enterprise telemetry  
+- Documenting attacks aligned with real-world defensive workflows  
+
+---
+
 ## 📂 Featured Projects
 
 ### 🔹 Adversary Simulation & Tooling
 Hands-on projects focused on understanding attacker tradecraft by implementing it.
 
-- **Lab C2 Framework (Python)**  
+- **[Lab C2 Framework (Python)](./projects/lab-c2-framework/README.md)**  
   Lightweight command-and-control simulation demonstrating beaconing, tasking, and response handling.  
   Includes architectural diagrams, MITRE ATT&CK mapping, and detection considerations.
 
-- **Custom Implant Experiments (C++)**  
+- **[Custom Implant Experiments (C++)](./projects/custom-implant/README.md)**  
   Lab-only payloads exploring execution flow, process behavior, and telemetry generation for detection analysis.
 
 ---
 
 ### 🔹 Detection Engineering (Splunk)
 
-Projects focused on identifying offensive techniques through logs and telemetry.
-
-- **Splunk Detection Playbooks**  
+- **[Splunk Detection Playbooks](./projects/splunk-detections/README.md)**  
   SPL queries and detection logic designed to identify simulated C2 activity and malicious behaviors.  
   Includes false-positive analysis and attacker adaptation notes.
 
@@ -60,9 +102,7 @@ Projects focused on identifying offensive techniques through logs and telemetry.
 
 ### 🔹 Pentesting Labs & Write-Ups
 
-Documented attack paths and exploitation logic from realistic lab environments.
-
-- **Hack The Box Write-Ups**  
+- **[Hack The Box Write-Ups](./projects/htb-labs/README.md)**  
   End-to-end attack chains covering initial access, privilege escalation, and post-exploitation reasoning.  
   Written in a red team–style reporting format.
 
@@ -97,4 +137,4 @@ If you’re reviewing this portfolio as part of a hiring process, I’d be happy
 ---
 
 📌 **LinkedIn:** [Your LinkedIn Here]  
-📌 **GitHub:** You’re already here 🙂
+📌 **GitHub:** [This Portfolio](https://github.com/yourusername)
