@@ -15,7 +15,8 @@ This repository serves as a curated collection of projects that reflect how I th
 - [Lab C2 Framework (Python)](./projects/lab-c2-framework/README.md)  
 - [Custom Implant Experiments (C++)](./projects/custom-implant/README.md)  
 - [Splunk Detection Playbooks](./projects/splunk-detections/README.md)  
-- [Hack The Box Labs & Write-Ups](./projects/htb-labs/README.md)  
+- [Hack The Box Labs & Write-Ups](./projects/htb-labs/README.md)
+- [Network+ Projects](./projects/network+)
 
 ---
 
